@@ -1,7 +1,18 @@
 * {
     box-sizing: border-box;
 }
-.container {
+#jumbotron{
+    
+    text-align: center;
+    display: inline-block;
+
+}
+.container{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+.timeslotContainer {
     text-align: center;
     display: inline-block;
     position: absolute;
