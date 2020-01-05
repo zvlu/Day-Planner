@@ -1,5 +1,4 @@
 let currentTimeDay = moment().format('MMMM Do YYYY, h:mm:ss a');
-
 let rightNow24 = moment().format("H");
 color(rightNow24, "#9am"); 
 color(rightNow24, "#10am"); 
@@ -13,13 +12,12 @@ color(rightNow24, "#5pm");
 
 
 
-$( document ).ready(function() {
+$(document).ready(function() {
 
     $('#currentDay').text(currentTimeDay);
      
-   
-
     $(".saveBtn").click(function () { 
+
         $('input[type="text"]').each(function () {
             
             const id = $(this).attr('id');
@@ -33,11 +31,7 @@ $( document ).ready(function() {
     $('input[type="text"]').each(function () {
         const setItem = $(this).attr('id');
         const setSave = localStorage.getItem(setItem);
-        document.getElementById(setItem).value = setSave;
-       
-        
-        
-        
+        document.getElementById(setItem).value = setSave;    
     });
 
  });
