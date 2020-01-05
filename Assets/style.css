@@ -1,30 +1,82 @@
 * {
     box-sizing: border-box;
 }
-#jumbotron{
-    
-    text-align: center;
-    display: inline-block;
-
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
 }
+.jumbotron {
+  background-color: darkgreen;
+}
+h1,h2 {
+  text-align: center;
+}
+#currentDay{
+  text-align: center;
+  
+}
+.savedBtn {
+  box-sizing: 30px;
+  background-color: darkgreen;
+}
+.saveBtn:hover {
+    background-color: darkgreen;
+}
+
 .container{
-    align-items: center;
-    text-align: center;
-    display: inline-block;
+    
+  text-align: center;
+  border-radius: 15px;
+  
+}
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 20px;
+}
+.hours {
+ 
+  background-color: rgb(217, 220, 20);
+  display: block;
+  margin-bottom: 20px;
 }
 .timeslotContainer {
     text-align: center;
-    display: inline-block;
-    position: absolute;
+    
     left: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .timeslots {
     text-align: center;
-    display: inline-block;
+    
+}
+
+.past {
+  background-color: #6be652;
+  color: white;
+  width: 82%;  
+}
+
+.present {
+  background-color: #253325;
+  color: white;
+  width: 82%;  
+}
+
+.future {
+  background-color: #eec963;
+  color: white;
+  width: 82%;  
+}
+footer{
+  text-align: center;
 }
 @media only screen and (max-width: 768px) {
-    .container {
+    body {
         text-align: center;
         left: 50px;
         width: 80px;

@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
-    
-    
+    <link rel="stylesheet" href="/Assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+    
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <h2 class="lead">A simple calendar app for scheduling your work day</h2>
@@ -27,49 +28,49 @@
                       
                   </div>
               </div>
-          </div>
+          
       </div>    
       
 
     <div class="timeslotContainer"></div>
       <div class="timeslots">
         <div id="times">
-          <div class="hours">
-            <div id="row-5">9am
+          <div class="hoursContainer">
+            <div id="row-5" class="hours">9am
               <input type="text" name="textInput"  id="9am" value="">
-              <button id="5" class="saveBtn">Save</button>
+              <button id="9" class="saveBtn">Save</button>
             </div>
-            <div id="row-6">10am
+            <div id="row-6" class="hours">10am
               <input type="text" name="textInput"  id="10am" value="">
-              <button id="5" class="saveBtn">Save</button>
+              <button id="10" class="saveBtn">Save</button>
             </div>
-            <div id="row-7">11am
+            <div id="row-7" class="hours">11am
               <input type="text" name="textInput"  id="11am" value="">
-              <button id="5" class="saveBtn">Save</button>
+              <button id="11" class="saveBtn">Save</button>
             </div>
-            <div id="row-8">12pm
+            <div id="row-8" class="hours">12pm
               <input type="text" name="textInput"  id="12pm" value="">
-              <button id="5" class="saveBtn">Save</button>
+              <button id="12" class="saveBtn">Save</button>
             </div>
-            <div id="row-9">1pm
+            <div id="row-9" class="hours">1pm
               <input type="text" name="textInput"  id="1pm" value="">
-              <button id="5" class="saveBtn">Save</button>
+              <button id="13" class="saveBtn">Save</button>
             </div>
-            <div id="row-10">2pm
+            <div id="row-10" class="hours">2pm
               <input type="text" name="textInput"  id="2pm" value="">
-              <button id="5" class="saveBtn">Save</button>
+              <button id="14" class="saveBtn">Save</button>
             </div>
-            <div id="row-11">3pm
+            <div id="row-11" class="hours">3pm
               <input type="text" name="textInput"  id="3pm" value="">
-              <button id="5" class="saveBtn">Save</button>
+              <button id="15" class="saveBtn">Save</button>
             </div>
-            <div id="row-12">4pm
+            <div id="row-12" class="hours">4pm
               <input type="text" name="textInput"  id="4pm" value="">
-              <button id="5" class="saveBtn">Save</button>
+              <button id="16" class="saveBtn">Save</button>
             </div>
-            <div id="row-13">5pm
+            <div id="row-13" class="hours">5pm
               <input type="text" name="textInput" id="5pm" value="">
-              <button id="5" class="saveBtn">Save</button>
+              <button id="17" class="saveBtn">Save</button>
             </div>
 
           </div>
@@ -79,6 +80,12 @@
       </div>
      
     </div>
+  </div>
+    <footer>
+      <p>&copy; 2019 </p>
+      <span>Created by Zvlu</span>
+
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
     <script src="/Assets/script.js"></script>
