@@ -1,5 +1,5 @@
 let currentTimeDay = moment().format('MMMM Do YYYY, h:mm:ss a');
-let currentHour = moment().format('HH')
+
 let rightNow24 = moment().format("H");
 color(rightNow24, "#9am"); 
 color(rightNow24, "#10am"); 
