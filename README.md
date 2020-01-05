@@ -1,6 +1,6 @@
 ### Day-Planner
 Created a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. 
- ![alt test](screenshots/Assets/Day-Planner.jpeg)
+ ![alt test](screenshots/Day-Planner.jpg)
 # Project Title
 
 Day-Planner-App
